@@ -14,7 +14,7 @@ public  class CarreraInmigrante {
 
       Scanner sc = new Scanner(System.in);
       ArrayList<Integer> participantes = new ArrayList<>();
-
+      System.out.println("hola por favor ingresa");
       System.out.println("ingresa la edad , dni y nombre completo y te decimos que categoria sos ");
 
       do {
@@ -53,6 +53,9 @@ public  class CarreraInmigrante {
         for (int i = 0 ; i< participantes.size() ; i++){
             System.out.println(participantes.get(i));
         }
+
+
+      System.out.println("TERMINAMOS EL EJERCICIOS");
 
     }
 }
