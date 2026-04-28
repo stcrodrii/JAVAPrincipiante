@@ -13,13 +13,13 @@ public class declaracionAsignacion
      // declaracion de un arreglo
         int numeros [] = new int[5];
         numeros[0] = 3 ;
+        numeros[1]=5;
         numeros[2]= 34;
         numeros[3]= 34;
         numeros[4]= 34;
 
 
         System.out.println(numeros[1]);
-
 
         System.out.println("-------------------------------");
 
